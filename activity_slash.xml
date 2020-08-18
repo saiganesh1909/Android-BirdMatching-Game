@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".Slash_Activity"
+android:background="#768A91"
+android:orientation="vertical"
+    >
+
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="146dp"
+        android:layout_marginLeft="146dp"
+        android:layout_marginBottom="95dp"
+        android:text="PLAY"
+        android:background="#22AC7E"/>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginBottom="95dp"
+        android:text="UPDATES"
+        android:background="#22AC7E"/>
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="38dp"
+        android:layout_marginRight="38dp"
+        android:layout_marginBottom="95dp"
+        android:text="HOW TO PLAY"
+        android:background="#22AC7E"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-4dp"
+        android:layout_marginLeft="-4dp"
+        android:layout_marginTop="1dp"
+        app:srcCompat="@drawable/back" />
+</RelativeLayout>
